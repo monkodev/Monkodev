@@ -232,12 +232,6 @@ section h2 {
 
 .saludo {
 	background-image: url('../images/saludofondo.jpg');
-	background-position: center;
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	overflow:hidden;
-	background-attachment: fixed;
-	background-size: cover;	
+	background-size: cover;
+	background-position: center center;
 }
