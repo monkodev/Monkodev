@@ -248,4 +248,16 @@ section h2 {
 	margin: 80px;
 	padding: 20px;
 	width: 400px;
+	text-align: center;
+}
+
+.mensajesaludo a {
+	
+
+}
+
+.mensajesaludo img {
+	width: 200px;
+	
+	margin-bottom: 0px;
 }
