@@ -112,6 +112,11 @@ header nav a.active {
 	color:white;
 }
 
+#portfolio .viewmore {
+	font-size: 12px;
+	font-family: sans-serif;
+	text-align: right;
+}
 #portfolio .box {
 	display: inline-block;
 	text-align: center;
@@ -128,11 +133,20 @@ header nav a.active {
 	color: #667;
 	padding: 10px;
 }
+#portfolio .titportfolio {
+	height: 80px;
+}
 
 #video {
 	background-color: black;
 	text-align: center;
+	padding-top: 10px;
 	}
+
+#video .titvideo, .titphilo {
+	height: 50px;
+}
+
 #video h2 {
 	color:white;
 }
@@ -144,8 +158,8 @@ header nav a.active {
 }
 
 #video .tecno {
-	
-	padding-top: 10px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 #video .tecno a{
@@ -176,20 +190,27 @@ header nav a.active {
 #contactus h2 {
 	color: black;
 	font-weight: border;
-	text-decoration:underline;
+	text-decoration:underline;	
+}
+
+#contactus .titcontact {
+	height: 50px;
 }
 
 #contactus input {
-	padding: 20px;
+	margin: 5px 0;
+	padding: 10px;
 	width: 400px;
 	border:1px solid #ccc;
 	border-radius: 5px;
 }
 
 #contactus textarea {
-	margin: 20px 0;
-	padding: 20px;
+	margin: 5px 0;
+	padding: 10px;
 	width: 400px;
+	border:1px solid #ccc;
+	border-radius: 5px;
 }
 
 #contactus button {
@@ -206,7 +227,7 @@ header nav a.active {
 footer {
 	padding: 20px 0;
 	text-align: center;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 footer img {
