@@ -22,11 +22,20 @@ header {
 
 header img {
 	width: 220px;
+
+}
+
+.banderas {
+height: 18px;
+width: 31px;
+float: right;
+margin-left: 15px;
 }
 
 header nav {
 	float: right;
 	margin-top: 10px; 
+	margin-right: 100px;
 }
 
 header nav a {
