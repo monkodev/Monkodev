@@ -16,17 +16,26 @@ header {
 	padding: 10px 0;
 	width: 100%;
 	position: fixed;
-	background-color: rgba(48,48,48,0.5);
+	background-color: rgba(48,48,48,0.9);
 	height: 70px;
 }
 
 header img {
 	width: 220px;
+
+}
+
+.banderas {
+height: 18px;
+width: 31px;
+float: right;
+margin-left: 15px;
 }
 
 header nav {
 	float: right;
 	margin-top: 10px; 
+	margin-right: 100px;
 }
 
 header nav a {
@@ -112,6 +121,11 @@ header nav a.active {
 	color:white;
 }
 
+#portfolio .viewmore {
+	font-size: 12px;
+	font-family: sans-serif;
+	text-align: right;
+}
 #portfolio .box {
 	display: inline-block;
 	text-align: center;
@@ -128,11 +142,20 @@ header nav a.active {
 	color: #667;
 	padding: 10px;
 }
+#portfolio .titportfolio {
+	height: 80px;
+}
 
 #video {
 	background-color: black;
 	text-align: center;
+	padding-top: 10px;
 	}
+
+#video .titvideo, .titphilo {
+	height: 50px;
+}
+
 #video h2 {
 	color:white;
 }
@@ -144,7 +167,8 @@ header nav a.active {
 }
 
 #video .tecno {
-	margin-top: 50px;	
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 #video .tecno a{
@@ -165,30 +189,37 @@ header nav a.active {
 }
 
 #contactus{
-	background-color: #303030;
 	background-image: url('../images/mapita1.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	text-align: center;
+	padding-bottom: 20px;
 }
 
 #contactus h2 {
 	color: black;
 	font-weight: border;
-	text-decoration:underline;
+	text-decoration:underline;	
+}
+
+#contactus .titcontact {
+	height: 50px;
 }
 
 #contactus input {
-	padding: 20px;
+	margin: 5px 0;
+	padding: 10px;
 	width: 400px;
 	border:1px solid #ccc;
 	border-radius: 5px;
 }
 
 #contactus textarea {
-	margin: 20px 0;
-	padding: 20px;
+	margin: 5px 0;
+	padding: 10px;
 	width: 400px;
+	border:1px solid #ccc;
+	border-radius: 5px;
 }
 
 #contactus button {
@@ -205,7 +236,7 @@ header nav a.active {
 footer {
 	padding: 20px 0;
 	text-align: center;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 footer img {
@@ -227,4 +258,41 @@ section h2 {
 	width: 992px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.saludo {
+	background-image: url('../images/saludofondo.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+	overflow:hidden; 
+}
+
+.mensajesaludo {
+	background-color:rgba(0,0,0,0.5);
+	color: white;
+	border-radius: 15px; 
+	margin: 80px;
+	padding: 20px;
+	width: 400px;
+	text-align: center;
+}
+
+.mensajesaludo img {
+	width: 200px;	
+	margin-bottom: 0px;
+}
+
+@media (max-width: 550px) {
+	.mensajesaludo {
+		width: 300px;
+		margin-left: 30px;
+		}
+	}
+@media (max-width: 350px) {
+	.mensajesaludo {width: 210px;
+		margin-left: 10px;}
 }
